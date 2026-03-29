@@ -3,17 +3,18 @@
   "packages": [
     "editorconfig-checker@latest",
     "typos@latest",
-    "lefthook@latest"
+    "lefthook@latest",
+    "bun@latest"
   ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null",
       "lefthook install",
-      "npm install"
+      "bun install"
     ],
     "scripts": {
       "check": [
-        "cspell .",
+        "bun run cspell .",
         "typos ."
       ],
       "test": [
