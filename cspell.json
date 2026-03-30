@@ -24,6 +24,7 @@
     "greenframe",
     "textlint",
     "cspell",
-    "jstools"
+    "jstools",
+    "commitlint"
   ]
 }

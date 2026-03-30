@@ -17,6 +17,9 @@
         "bun run cspell .",
         "typos ."
       ],
+      "commitlint": [
+        "bun run commitlint --edit"
+      ],
       "test": [
         "echo \"Error: no test specified\" && exit 1"
       ]

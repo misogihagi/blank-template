@@ -2,3 +2,7 @@ pre-commit:
   parallel: true
   jobs:
     - run: devbox run check
+commit-msg:
+  commands:
+    commitlint:
+      run: devbox run commitlint {1}
