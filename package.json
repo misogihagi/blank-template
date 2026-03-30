@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "commitlint": "^20.5.0",
+    "commitlint-config-gitmoji": "^2.3.1",
     "cspell": "^9.7.0"
   }
 }
