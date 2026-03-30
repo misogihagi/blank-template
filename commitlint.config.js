@@ -13,6 +13,7 @@ module.exports = {
         "jstools",
         "cspell",
         "commitlint",
+        "secretlint",
       ],
     ],
   },
