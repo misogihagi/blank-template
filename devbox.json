@@ -15,7 +15,8 @@
     "scripts": {
       "check": [
         "bun run cspell .",
-        "typos ."
+        "typos .",
+        "bun run secretlint \"**/*\""
       ],
       "commitlint": [
         "bun run commitlint --edit"
