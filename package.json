@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "commitlint": "^20.5.0",
     "cspell": "^9.7.0"
   }
 }

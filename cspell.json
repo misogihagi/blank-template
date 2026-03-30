@@ -22,6 +22,8 @@
     "gitmoji",
     "setlocale",
     "greenframe",
-    "textlint"
+    "textlint",
+    "cspell",
+    "jstools"
   ]
 }
