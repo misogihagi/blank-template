@@ -25,6 +25,10 @@
     "textlint",
     "cspell",
     "jstools",
-    "commitlint"
+    "commitlint",
+    "rulesync",
+    "claudecode",
+    "clauderc",
+    "codexcli"
   ]
 }
