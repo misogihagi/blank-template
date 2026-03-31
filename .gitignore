@@ -139,3 +139,18 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# AI & Editor specific files
+.claude/
+.codex/
+.cursor/
+.cursorignore
+.github/agents/
+.github/copilot-instructions.md
+.github/hooks/
+.github/prompts/
+.github/skills/
+.mcp.json
+.vscode/mcp.json
+AGENTS.md
+CLAUDE.md
