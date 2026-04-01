@@ -14,7 +14,8 @@ module.exports = {
         "cspell",
         "commitlint",
         "secretlint",
-        "rulesync"
+        "rulesync",
+        "ai"
       ],
     ],
   },
