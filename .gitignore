@@ -65,6 +65,36 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
+# Gemini CLI and other AI-related files
+.agent/
+.agents/
+.aiignore
+.augmentignore
+.cline/
+.clineignore
+.codeiumignore
+.copilot/
+.deepagents/
+.factory/
+.gemini/
+.geminiignore
+.goosehints
+.gooseignore
+.junie/
+.kilocode/
+.kilocodeignore
+.kiro/
+.opencode/
+.roo/
+.rooignore
+.serena/
+.zed/
+GEMINI.md
+QWEN.md
+WARP.md
+opencode.jsonc
+replit.md
+
 # dotenv environment variable files
 .env
 .env.*

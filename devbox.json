@@ -11,7 +11,7 @@
       "echo 'Welcome to devbox!' > /dev/null",
       "lefthook install",
       "bun install",
-      "bun run rulesync generate"
+      "bun run rulesync generate --targets \"*\" --features \"*\""
     ],
     "scripts": {
       "check": [
