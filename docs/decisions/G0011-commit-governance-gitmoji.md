@@ -1,3 +1,5 @@
+# Git のコミットメッセージは gitmoji に準拠する
+
 ## はじめに
 
 - [決定](#決定)
@@ -14,7 +16,7 @@ Git のコミットメッセージは gitmoji に準拠する。
 
 また、コミットメッセージの形式は以下のようにし、type は[gitmoji](https://gitmoji.dev/)を参照する。
 
-```
+```text
 type(scope): subject
 ```
 
@@ -24,6 +26,8 @@ type(scope): subject
 
 ## ステータス
 
+<!-- to render SVG file trick -->
+<!-- markdownlint-disable MD013 MD033 MD013 -->
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/6.x/svgs/regular/circle-check.svg" width="10" alt="承認済み" /> 承認済み
 
 ## 背景

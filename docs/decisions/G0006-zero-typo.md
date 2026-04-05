@@ -1,3 +1,5 @@
+# タイポミスをなくすため CSpell と typos を導入する
+
 ## はじめに
 
 - [決定](#決定)
@@ -14,6 +16,8 @@
 
 ## ステータス
 
+<!-- to render SVG file trick -->
+<!-- markdownlint-disable MD013 MD033 MD013 -->
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/6.x/svgs/regular/circle-check.svg" width="10" alt="承認済み" /> 承認済み
 
 ## 背景
@@ -41,7 +45,7 @@ CICD にも乗せられて、ローカルでも動くスペルチェッカーは
 
 大きすぎるので NG。ただし CICD には乗せられるかも：
 
-- Ginger: https://github.com/Ginger-Automation/Ginger
+- Ginger: <https://github.com/Ginger-Automation/Ginger>
 
 ## 参考文献
 

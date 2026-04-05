@@ -16,6 +16,7 @@
 
 ## ステータス
 
+<!-- to render SVG file trick -->
 <!-- markdownlint-disable MD013 MD033 MD013 -->
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/6.x/svgs/regular/circle-check.svg" width="10" alt="承認済み" /> 承認済み
 
@@ -25,23 +26,23 @@
 
 ### ユースケース
 
-- `docs/decisions/` ディレクトリ内のADRファイルが特定のフォーマット規則に従うことを保証する。
-- README.mdやその他のMarkdownドキュメントが、プロジェクト全体で一貫したスタイルを持つようにする。
-- プルリクエストのレビュー時に、Markdownのフォーマットに関する指摘を減らし、コードのロジックや設計に集中できるようにする。
+* `docs/decisions/` ディレクトリ内のADRファイルが特定のフォーマット規則に従うことを保証する。
+* README.mdやその他のMarkdownドキュメントが、プロジェクト全体で一貫したスタイルを持つようにする。
+* プルリクエストのレビュー時に、Markdownのフォーマットに関する指摘を減らし、コードのロジックや設計に集中できるようにする。
 
 ## 想定される影響
 
 ### ポジティブな影響
 
-- Markdownファイルの品質と一貫性が向上する。
-- ドキュメントの可読性が高まる。
-- レビュープロセスにおけるMarkdownフォーマットに関する手動での指摘が減少する。
-- 開発者がMarkdownのフォーマットルールを意識するようになり、学習効果が期待できる。
+* Markdownファイルの品質と一貫性が向上する。
+* ドキュメントの可読性が高まる。
+* レビュープロセスにおけるMarkdownフォーマットに関する手動での指摘が減少する。
+* 開発者がMarkdownのフォーマットルールを意識するようになり、学習効果が期待できる。
 
 ### ネガティブな影響
 
-- 初期設定とルールの調整に時間がかかる可能性がある。
-- 既存のMarkdownファイルに多数のリンティングエラーが発生し、修正作業が必要になる可能性がある。
+* 初期設定とルールの調整に時間がかかる可能性がある。
+* 既存のMarkdownファイルに多数のリンティングエラーが発生し、修正作業が必要になる可能性がある。
 
 ## 検討した他の選択肢
 
@@ -49,7 +50,7 @@
 
 ## 参考文献
 
-- [markdownlint 公式GitHubリポジトリ](https://github.com/DavidAnson/markdownlint)
+* [markdownlint 公式GitHubリポジトリ](https://github.com/DavidAnson/markdownlint)
 
 ## 結果
 

@@ -117,9 +117,8 @@ devbox shell
 
 シンプルな設定と豊富なパッケージ、低い学習コストに加えて、DockerfileやGithub Actions、direnvの.envrcとの連携など、既存の開発フローとの親和性も高いです。個人プロジェクトで使ってみてかなり良さそうという印象でした。まだチームプロジェクトには導入していませんが、チームでの採用も期待感が持てるツールだという感想です。
 
-
 ## 参考文献
 
-https://qiita.com/suin/items/3ec298a4172fdf6f60b6
+<https://qiita.com/suin/items/3ec298a4172fdf6f60b6>
 
 ## 結果

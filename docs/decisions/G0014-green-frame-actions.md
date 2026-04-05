@@ -1,3 +1,5 @@
+# Green FrameをGitHub Actionsに組み込む
+
 ## はじめに
 
 - [決定](#決定)
@@ -14,7 +16,9 @@ Green FrameをGitHub Actionsに組み込む
 
 ## ステータス
 
-### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/6.x/svgs/regular/circle-check.svg" width="10" alt="承認済み" /> 承認済み
+<!-- to render SVG file trick -->
+<!-- markdownlint-disable MD013 MD033 MD013 -->
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/6.x/svgs/regular/circle-xmark.svg" width="10" alt="却下済み" /> 却下済み
 
 ## 背景
 
@@ -39,9 +43,9 @@ $ greenframe analyze https://cnn.com --threshold=0.045
 
 [greenframe.io](https://greenframe.io)サービスと連携（`GREENFRAME_SECRET_TOKEN`を使用）することで、以下のメリットが得られます。
 
-  * **時系列での監視**: ダッシュボードでカーボンフットプリントの**経時的な変化**を追跡できます。
-  * **プルリクエストごとの比較**: `main`ブランチの最新分析結果と現在のブランチの分析を\*\*自動で比較（Diffing Against Previous Analyses）\*\*し、変更が排出量に与える影響をすぐに確認できます。
-  * **詳細な内訳**: シナリオ、コンテナ、ステップごとの詳細な分析レポートを取得できます。
+- **時系列での監視**: ダッシュボードでカーボンフットプリントの**経時的な変化**を追跡できます。
+- **プルリクエストごとの比較**: `main`ブランチの最新分析結果と現在のブランチの分析を\*\*自動で比較（Diffing Against Previous Analyses）\*\*し、変更が排出量に与える影響をすぐに確認できます。
+- **詳細な内訳**: シナリオ、コンテナ、ステップごとの詳細な分析レポートを取得できます。
 
 GitHub Actionsで定期的にまたはブランチマージ時に実行することで、アプリケーションの環境性能が低下していないか継続的にチェックする自動化されたプロセスを確立できます。
 
@@ -64,4 +68,5 @@ CI環境でアプリケーションのテスト環境を立ち上げ、その環
 
 ## 結果
 
-<!-- この変更によって、もたらされた結果を後で書き込む -->
+Webサイト用のため否認。
+CLIツールを作ることもあるため、ここでは導入しない。

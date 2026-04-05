@@ -1,3 +1,5 @@
+# タスクランナーを導入する
+
 ## はじめに
 
 - [決定](#決定)
@@ -14,12 +16,14 @@
 
 ## ステータス
 
+<!-- to render SVG file trick -->
+<!-- markdownlint-disable MD013 MD033 MD013 -->
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/6.x/svgs/regular/circle-check.svg" width="10" alt="承認済み" /> 承認済み
 
 ## 背景
 
 Devbox にはスクリプトを走らせる機能がある。
-参考：https://www.jetify.com/docs/devbox/guides/scripts/
+参考：<https://www.jetify.com/docs/devbox/guides/scripts/>
 
 これを見越して Devbox を導入させたのもあったが、これを使ってタスクを登録する。
 
