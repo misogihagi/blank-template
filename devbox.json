@@ -17,7 +17,8 @@
       "check": [
         "bun run cspell .",
         "typos .",
-        "bun run secretlint \"**/*\""
+        "bun run secretlint \"**/*\"",
+        "bun run markdownlint-cli2 docs/"
       ],
       "commitlint": [
         "bun run commitlint --edit"
