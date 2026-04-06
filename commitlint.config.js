@@ -15,6 +15,7 @@ module.exports = {
         "commitlint",
         "secretlint",
         "markdownlint",
+        "textlint",
         "rulesync",
         "ai"
       ],
