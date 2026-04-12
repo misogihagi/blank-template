@@ -1,7 +1,17 @@
 {
   "plugins": {},
-  "filters": {},
+  "filters": {
+    "comments": true
+  },
   "rules": {
-    "preset-ja-technical-writing": true
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": {
+        "no-exclamation-question-mark": false, // 親しみ、読みやすさ、疑問と反語のつかい分けのために切っておく
+        "periodMark": ["。", "："]
+      },
+      "sentence-length": {
+        "max": 150 // 英字だと文字数が多くて文としては短いのに、長い文と判定されてしまう。緩めにとっておく
+      }
+    }
   }
 }
