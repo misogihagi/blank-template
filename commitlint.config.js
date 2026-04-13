@@ -7,6 +7,7 @@ module.exports = {
       "always",
       [
         "adr",
+        "adrowse",
         "gitignore",
         "devbox",
         "lefthook",
