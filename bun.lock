@@ -8,6 +8,7 @@
         "@secretlint/secretlint-rule-preset-recommend": "^11.4.1",
         "commitlint": "^20.5.0",
         "commitlint-config-gitmoji": "^2.3.1",
+        "commitlint-plugin-function-rules": "^4.3.2",
         "cspell": "^9.7.0",
         "markdownlint-cli2": "^0.22.0",
         "rulesync": "^7.23.0",
@@ -472,6 +473,8 @@
     "commitlint": ["commitlint@20.5.0", "", { "dependencies": { "@commitlint/cli": "^20.5.0", "@commitlint/types": "^20.5.0" }, "bin": { "commitlint": "cli.js" } }, "sha512-zc3hOb8+ivBza2sIF9bhm2aPs9ovR77v7VHN6SPQ4cVjZBw5t48j78v7KU7UIeOJ5k18BQpfsGfY4Bf2KQyiBg=="],
 
     "commitlint-config-gitmoji": ["commitlint-config-gitmoji@2.3.1", "", { "dependencies": { "@commitlint/types": "^17", "@gitmoji/commit-types": "1.1.5", "@gitmoji/parser-opts": "1.4.0", "commitlint-plugin-gitmoji": "2.2.6" } }, "sha512-T15ssbsyNc6szHlnGWo0/xvIA1mObqM70E9TwKNVTpksxhm+OdFht8hvDdKJAVi4nlZX5tcfTeILOi7SHBGH3w=="],
+
+    "commitlint-plugin-function-rules": ["commitlint-plugin-function-rules@4.3.2", "", { "peerDependencies": { "@commitlint/lint": ">=19 <21" } }, "sha512-UrJfHj7jRislz5qWkBj0mp2EHaFT1LwDdG8uOTofWK/jf84EmNMjmDD+9M6eyrfrgLorTAN3/veRMU0D/vb7CQ=="],
 
     "commitlint-plugin-gitmoji": ["commitlint-plugin-gitmoji@2.2.6", "", { "dependencies": { "@commitlint/types": "^17", "@gitmoji/gitmoji-regex": "1.0.0", "gitmojis": "^3" } }, "sha512-oKHPHeNXby0Ix0ZbHVSK5ZyPx1V4fyBjLOy93cYwXhOEPXe36nkDc/HDPFfQpzx1vz39277TaP9LScbqTbscfQ=="],
 

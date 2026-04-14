@@ -1,25 +1,40 @@
+const allScopes = [
+  "adr",
+  "gitignore",
+  "devbox",
+  "lefthook",
+  "jstools",
+  "cspell",
+  "commitlint",
+  "secretlint",
+  "markdownlint",
+  "textlint",
+  "rulesync",
+  "ai",
+];
+
 module.exports = {
+  parserPreset: {
+    parserOpts: {
+      headerPattern: /^(:[a-z]+:) (\(([a-z]+)\))?(.*)$/, // type, scopeは小文字のasciiのみ
+      headerCorrespondence: ["type", "scope", "subject"],
+    },
+  },
   extends: ["gitmoji"],
+  plugins: ["commitlint-plugin-function-rules"],
   rules: {
     "type-empty": [0, "never"], // typeはemojiと重複するため
-    "scope-enum": [
+    "type-enum": [0, "never"],
+    "function-rules/scope-enum": [
       2,
       "always",
-      [
-        "adr",
-        "adrowse",
-        "gitignore",
-        "devbox",
-        "lefthook",
-        "jstools",
-        "cspell",
-        "commitlint",
-        "secretlint",
-        "markdownlint",
-        "textlint",
-        "rulesync",
-        "ai"
-      ],
+      (parsed) => {
+        if (allScopes.some((scope) => parsed.scope === "(" + scope + ")")) {
+          return [true];
+        }
+
+        return [false, `scope must be one of ${allScopes.join(", ")}`];
+      },
     ],
   },
 };
