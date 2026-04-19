@@ -19,7 +19,8 @@
         "bun run cspell .",
         "typos .",
         "bun run secretlint \"**/*\"",
-        "bun run markdownlint-cli2 docs/"
+        "bun run markdownlint-cli2 docs/",
+        "eclint --exclude node_modules/"
       ],
       "commitlint": [
         "bun run commitlint --edit"
