@@ -49,6 +49,54 @@
         }
       }
     },
+    "eclint@latest": {
+      "last_modified": "2026-03-21T07:29:51Z",
+      "resolved": "github:NixOS/nixpkgs/09061f748ee21f68a089cd5d91ec1859cd93d0be#eclint",
+      "source": "devbox-search",
+      "version": "0.5.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/c9isms6j6rqqc99af6gdp1ga75ii1gwp-eclint-0.5.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/c9isms6j6rqqc99af6gdp1ga75ii1gwp-eclint-0.5.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xkm8k4vsnpcavjkm09yjfwbcdbgcaln9-eclint-0.5.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xkm8k4vsnpcavjkm09yjfwbcdbgcaln9-eclint-0.5.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/532r9dz27gag41fh6xqscks7gy7vbjdj-eclint-0.5.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/532r9dz27gag41fh6xqscks7gy7vbjdj-eclint-0.5.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zn91sfn811axx0va1250gfx6n5jzzw7m-eclint-0.5.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zn91sfn811axx0va1250gfx6n5jzzw7m-eclint-0.5.1"
+        }
+      }
+    },
     "editorconfig-checker@latest": {
       "last_modified": "2025-05-16T20:19:48Z",
       "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#editorconfig-checker",
