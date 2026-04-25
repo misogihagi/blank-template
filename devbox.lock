@@ -49,6 +49,70 @@
         }
       }
     },
+    "check-jsonschema@latest": {
+      "last_modified": "2026-04-16T08:46:55Z",
+      "resolved": "github:NixOS/nixpkgs/b86751bc4085f48661017fa226dee99fab6c651b#check-jsonschema",
+      "source": "devbox-search",
+      "version": "0.37.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/581j4h5bfq08lyfzqrq4kwmkmp7zvy1h-check-jsonschema-0.37.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/v8kj3m43qd1fs6j86313p7qkms75zpy2-check-jsonschema-0.37.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/581j4h5bfq08lyfzqrq4kwmkmp7zvy1h-check-jsonschema-0.37.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fasq59nain9n8737jnd9paz8f1my6kw8-check-jsonschema-0.37.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/ykv5x0201bmmm5qf2amd4bsgscji5zni-check-jsonschema-0.37.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/fasq59nain9n8737jnd9paz8f1my6kw8-check-jsonschema-0.37.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xm5nhdipyz1788wwgwp4r5filc1kwvf4-check-jsonschema-0.37.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/zyp1952fh23hzqyll5352k8f1apdxwlq-check-jsonschema-0.37.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/xm5nhdipyz1788wwgwp4r5filc1kwvf4-check-jsonschema-0.37.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fda0q5xzn7r60qb093h8qdvw6my59ka4-check-jsonschema-0.37.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/l72kc4mvlvvqf24d8sq1z9ifzkkw7448-check-jsonschema-0.37.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/fda0q5xzn7r60qb093h8qdvw6my59ka4-check-jsonschema-0.37.1"
+        }
+      }
+    },
     "eclint@latest": {
       "last_modified": "2026-03-21T07:29:51Z",
       "resolved": "github:NixOS/nixpkgs/09061f748ee21f68a089cd5d91ec1859cd93d0be#eclint",
