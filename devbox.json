@@ -5,7 +5,8 @@
     "typos@latest",
     "lefthook@latest",
     "bun@latest",
-    "eclint@latest"
+    "eclint@latest",
+    "yamllint@latest"
   ],
   "shell": {
     "init_hook": [
