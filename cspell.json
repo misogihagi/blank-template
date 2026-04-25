@@ -29,6 +29,8 @@
     "rulesync",
     "claudecode",
     "clauderc",
-    "codexcli"
+    "codexcli",
+    "yamllintrc",
+    "schemafile"
   ]
 }

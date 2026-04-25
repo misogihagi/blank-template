@@ -11,6 +11,7 @@ const allScopes = [
   "textlint",
   "rulesync",
   "ai",
+  "yamllint",
 ];
 
 module.exports = {
