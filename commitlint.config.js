@@ -12,6 +12,7 @@ const allScopes = [
   "rulesync",
   "ai",
   "yamllint",
+  "checkjsonschema",
 ];
 
 module.exports = {
