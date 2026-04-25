@@ -24,10 +24,19 @@
         "bun run markdownlint-cli2 docs/",
         "bun run textlint docs/",
         "eclint --exclude node_modules/",
-        "yamllint -d .yamllintrc.yml ."
+        "yamllint -d .yamllintrc.yml .",
+        "devbox run check-jsonschema"
       ],
       "commitlint": [
         "bun run commitlint --edit"
+      ],
+      "check-jsonschema": [
+        "check-jsonschema --builtin-schema vendor.github-workflows .github/workflows/*",
+        "check-jsonschema --schemafile .jsonschema/cspell.schema.json cspell.json ",
+        "check-jsonschema --schemafile .jsonschema/devbox.schema.json devbox.json",
+        "check-jsonschema --schemafile .jsonschema/lefthook.schema.json lefthook.yml",
+        "check-jsonschema --schemafile .jsonschema/package.schema.json package.json",
+        "check-jsonschema --schemafile .jsonschema/yamllint.json .yamllintrc.yml"
       ],
       "test": [
         "echo \"Error: no test specified\" && exit 1"
