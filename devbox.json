@@ -21,7 +21,8 @@
         "typos .",
         "bun run secretlint \"**/*\"",
         "bun run markdownlint-cli2 docs/",
-        "eclint --exclude node_modules/"
+        "eclint --exclude node_modules/",
+	"yamllint -d .yamllintrc.yml ."
       ],
       "commitlint": [
         "bun run commitlint --edit"
