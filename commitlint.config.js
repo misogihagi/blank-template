@@ -13,6 +13,7 @@ const allScopes = [
   "ai",
   "yamllint",
   "checkjsonschema",
+  "actionlint",
 ];
 
 module.exports = {
