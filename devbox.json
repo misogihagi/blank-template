@@ -7,7 +7,8 @@
     "bun@latest",
     "eclint@latest",
     "yamllint@latest",
-    "check-jsonschema@latest"
+    "check-jsonschema@latest",
+    "actionlint@latest"
   ],
   "shell": {
     "init_hook": [
