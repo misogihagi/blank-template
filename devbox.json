@@ -26,7 +26,8 @@
         "bun run textlint docs/",
         "eclint --exclude node_modules/",
         "yamllint -d .yamllintrc.yml .",
-        "devbox run check-jsonschema"
+        "devbox run check-jsonschema",
+        "actionlint"
       ],
       "commitlint": [
         "bun run commitlint --edit"
