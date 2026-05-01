@@ -1,6 +1,14 @@
 ---
 extends: default
 
+rules:
+  # [アクション名]@[ハッシュ]で80を超えてしまうので暫定的に100にする
+  line-length:
+    max: 100
+    ignore: |
+      .yamllintrc.yml
+      lefthook.yml
+
 ignore:
   - node_modules/
   - .serena/
