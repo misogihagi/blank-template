@@ -257,6 +257,54 @@
         }
       }
     },
+    "ghalint@latest": {
+      "last_modified": "2026-04-16T08:46:55Z",
+      "resolved": "github:NixOS/nixpkgs/b86751bc4085f48661017fa226dee99fab6c651b#ghalint",
+      "source": "devbox-search",
+      "version": "1.5.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/c70xsjbl7kizvq39802q5053gv08a2qq-ghalint-1.5.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/c70xsjbl7kizvq39802q5053gv08a2qq-ghalint-1.5.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m6hj57125ny0nqb4zm6nazg1rah02bs7-ghalint-1.5.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m6hj57125ny0nqb4zm6nazg1rah02bs7-ghalint-1.5.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m7wmk5af3wajn1iza8mqbjkp8qn4069k-ghalint-1.5.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m7wmk5af3wajn1iza8mqbjkp8qn4069k-ghalint-1.5.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/drcgcrn1cf5w0ss4qf3qhqigwggkbz3y-ghalint-1.5.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/drcgcrn1cf5w0ss4qf3qhqigwggkbz3y-ghalint-1.5.5"
+        }
+      }
+    },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
       "last_modified": "2025-05-22T23:55:03Z",
       "resolved": "github:NixOS/nixpkgs/fe51d34885f7b5e3e7b59572796e1bcb427eccb1?lastModified=1747958103&narHash=sha256-qmmFCrfBwSHoWw7cVK4Aj%2Bfns%2Bc54EBP8cGqp%2FyK410%3D"

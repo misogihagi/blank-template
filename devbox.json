@@ -8,7 +8,8 @@
     "eclint@latest",
     "yamllint@latest",
     "check-jsonschema@latest",
-    "actionlint@latest"
+    "actionlint@latest",
+    "ghalint@latest"
   ],
   "shell": {
     "init_hook": [
@@ -27,7 +28,8 @@
         "eclint --exclude node_modules/",
         "yamllint -d .yamllintrc.yml .",
         "devbox run check-jsonschema",
-        "actionlint"
+        "actionlint",
+	"ghalint run"
       ],
       "commitlint": [
         "bun run commitlint --edit"
