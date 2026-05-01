@@ -6,14 +6,16 @@ jobs:
   greenframe_action_workflow:
     runs-on: ubuntu-latest
     name: Run a GreenFrame CLI Action
+    permissions:
+      contents: read
+    timeout-minutes: 30
     steps:
-      # To use this repository's private action,
-      # you must check out the repository
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
         with:
-          fetch-depth: 0 # Fetch all the git history to enable git comparison
+          fetch-depth: 0
+          persist-credentials: false
       - name: GreenFrame Analysis
-        uses: marmelab/greenframe-action@1.0.0
+        uses: marmelab/greenframe-action@011684099110df819fc5444ab6d5611b8f7fe10e  # v1.0.0
         env:
           GREENFRAME_SECRET_TOKEN: ${{secrets.GREENFRAME_SECRET_TOKEN}}

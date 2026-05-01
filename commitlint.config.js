@@ -14,6 +14,7 @@ const allScopes = [
   "yamllint",
   "checkjsonschema",
   "actionlint",
+  "ghalint",
 ];
 
 module.exports = {
