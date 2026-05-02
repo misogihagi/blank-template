@@ -20,7 +20,7 @@ const allScopes = [
 module.exports = {
   parserPreset: {
     parserOpts: {
-      headerPattern: /^(:[a-z]+:) (\(([a-z]+)\))?(.*)$/, // type, scopeは小文字のasciiのみ
+      headerPattern: /^(:[a-z_]+:) (\(([a-z]+)\))?(.*)$/, // type, scopeは小文字のasciiのみ
       headerCorrespondence: ["type", "scope", "subject"],
     },
   },
