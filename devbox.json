@@ -9,7 +9,8 @@
     "yamllint@latest",
     "check-jsonschema@latest",
     "actionlint@latest",
-    "ghalint@latest"
+    "ghalint@latest",
+    "zizmor@latest"
   ],
   "shell": {
     "init_hook": [
@@ -29,7 +30,7 @@
         "yamllint -d .yamllintrc.yml .",
         "devbox run check-jsonschema",
         "actionlint",
-	"ghalint run"
+        "ghalint run"
       ],
       "commitlint": [
         "bun run commitlint --edit"
