@@ -37,6 +37,8 @@
     "jacksmith",
     "typespec",
     "checkjsonschema",
-    "ghalint"
+    "ghalint",
+    "zizmor",
+    "SARIF"
   ]
 }
