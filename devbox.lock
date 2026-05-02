@@ -357,6 +357,54 @@
         }
       }
     },
+    "lychee@latest": {
+      "last_modified": "2026-04-23T13:07:47Z",
+      "resolved": "github:NixOS/nixpkgs/01fbdeef22b76df85ea168fbfe1bfd9e63681b30#lychee",
+      "source": "devbox-search",
+      "version": "0.23.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7qlgib6d86x9a43ym9f215jmnhvpsmid-lychee-0.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7qlgib6d86x9a43ym9f215jmnhvpsmid-lychee-0.23.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jnx0ibmd6gg5rnh0zpmqnk4j2d8kibc4-lychee-0.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jnx0ibmd6gg5rnh0zpmqnk4j2d8kibc4-lychee-0.23.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lz873w8qcsf4s72llq7706z26c1jyplz-lychee-0.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lz873w8qcsf4s72llq7706z26c1jyplz-lychee-0.23.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jpnrp5n1q9x80sp1pqr0w96fr458jcli-lychee-0.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jpnrp5n1q9x80sp1pqr0w96fr458jcli-lychee-0.23.0"
+        }
+      }
+    },
     "typos@latest": {
       "last_modified": "2025-06-10T12:31:18Z",
       "resolved": "github:NixOS/nixpkgs/a12f3a99614894502e73eb816e9e076b0ab05730#typos",

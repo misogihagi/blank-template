@@ -10,7 +10,8 @@
     "check-jsonschema@latest",
     "actionlint@latest",
     "ghalint@latest",
-    "zizmor@latest"
+    "zizmor@latest",
+    "lychee@latest"
   ],
   "shell": {
     "init_hook": [
