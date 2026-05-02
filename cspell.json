@@ -39,6 +39,8 @@
     "checkjsonschema",
     "ghalint",
     "zizmor",
-    "SARIF"
+    "SARIF",
+    "ghasec",
+    "koki"
   ]
 }
