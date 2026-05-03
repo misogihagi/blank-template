@@ -22,7 +22,7 @@ type(scope): subject
 
 本 DR は以下 DR に依存する。
 
-- [Git のコミットメッセージを統制する。](./00010-commit-governance.md)
+- [Git のコミットメッセージを統制する。](./G0010-commit-governance.md)
 
 ## ステータス
 

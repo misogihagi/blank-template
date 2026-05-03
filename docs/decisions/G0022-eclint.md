@@ -50,7 +50,7 @@ eclintによるEditorConfig遵守の自動チェックを導入する。
 
 ## 参考文献
 
-* [eclint - npm](https://www.npmjs.com/package/eclint)
+* [eclint - npm](https://github.com/jednano/eclint)
 * [EditorConfig 実行環境の標準化](https://editorconfig.org/)
 
 ## 結果

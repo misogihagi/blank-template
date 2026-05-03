@@ -14,9 +14,9 @@
 
 VSCode による統合をする。
 
-[開発環境に Jetify Devbox を使う](./00004-devbox.md)
-[EditorConfig を導入する](./00005-editorconfig.md)
-[タイポミスをなくすため CSpell と typos を導入する](./00006-zero-typo.md)
+[開発環境に Jetify Devbox を使う](./G0004-devbox.md)
+[EditorConfig を導入する](./G0005-editorconfig.md)
+[タイポミスをなくすため CSpell と typos を導入する](./G0006-zero-typo.md)
 も参照。
 
 ## ステータス

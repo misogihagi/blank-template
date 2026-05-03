@@ -50,7 +50,6 @@
 ## 参考文献
 
 * [yamllint Documentation](https://yamllint.readthedocs.io/)
-* [Google Cloud - YAML style guide](https://google.github.io/styleguide/yamlstyle.html)
 
 ## 結果
 

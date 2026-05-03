@@ -15,6 +15,7 @@ const allScopes = [
   "checkjsonschema",
   "actionlint",
   "ghalint",
+  "lychee",
 ];
 
 module.exports = {

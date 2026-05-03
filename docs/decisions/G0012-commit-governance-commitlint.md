@@ -16,11 +16,11 @@ Git のコミットは commitlint を通す。
 
 本 DR は以下 DR に依存する。
 
-- [Git のコミットメッセージを統制する。](./00010-commit-governance.md)
+- [Git のコミットメッセージを統制する。](./G0010-commit-governance.md)
 
 参照：
 
-- [Git のコミットメッセージは gitmoji に準拠する。](./00011-commit-governance-gitmoji.md)
+- [Git のコミットメッセージは gitmoji に準拠する。](./G0011-commit-governance-gitmoji.md)
 
 ## ステータス
 
@@ -30,7 +30,7 @@ Git のコミットは commitlint を通す。
 
 ## 背景
 
-[Git のコミットメッセージは gitmoji に準拠する。](./00011-commit-governance-gitmoji.md)で決めたコミットメッセージの形式を守るため、ツールが必要。
+[Git のコミットメッセージは gitmoji に準拠する。](./G0011-commit-governance-gitmoji.md)で決めたコミットメッセージの形式を守るため、ツールが必要。
 `commitlint` を導入する主な理由は、**チーム開発におけるコミットメッセージの品質と一貫性を向上させるため**です。具体的には、以下のようなメリットがあります。
 
 1. **コミット履歴の可読性向上:**
