@@ -32,7 +32,8 @@
         "devbox run check-jsonschema",
         "actionlint",
         "ghalint run",
-        "zizmor ."
+        "zizmor .",
+        "lychee docs/"
       ],
       "commitlint": [
         "bun run commitlint --edit"
