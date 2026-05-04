@@ -1,0 +1,17 @@
+{
+  "name": "Environment by Devbox",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jetpack-io.devbox",
+        "EditorConfig.EditorConfig",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  },
+  "postCreateCommand": "devbox install"
+}

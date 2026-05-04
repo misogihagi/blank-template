@@ -22,6 +22,7 @@ const allScopes = [
   "actionlint",
   "ghalint",
   "lychee",
+  "devcontainers",
 ];
 
 module.exports = {
