@@ -1,3 +1,9 @@
+const { gitmojis } = require("gitmojis");
+const allGitmojiCodes = [
+  ...gitmojis.map((gitmoji) => gitmoji.code),
+  ":scroll:", // for ADR
+];
+
 const allScopes = [
   "adr",
   "gitignore",
@@ -25,7 +31,7 @@ module.exports = {
       headerCorrespondence: ["type", "scope", "subject"],
     },
   },
-  extends: ["gitmoji"],
+  extends: [],
   plugins: ["commitlint-plugin-function-rules"],
   rules: {
     "type-empty": [0, "never"], // typeはemojiと重複するため
