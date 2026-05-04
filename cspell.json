@@ -42,6 +42,10 @@
     "SARIF",
     "ghasec",
     "koki",
-    "gitmojis"
+    "gitmojis",
+    "Conftest",
+    "Rego",
+    "Dockerfile",
+    "Dockerfiles"
   ]
 }
