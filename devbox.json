@@ -12,7 +12,8 @@
     "ghalint@latest",
     "zizmor@latest",
     "lychee@latest",
-    "hadolint@latest"
+    "hadolint@latest",
+    "shellcheck@latest"
   ],
   "shell": {
     "init_hook": [
