@@ -46,6 +46,9 @@
     "Conftest",
     "Rego",
     "Dockerfile",
-    "Dockerfiles"
+    "Dockerfiles",
+    "shellcheck",
+    "shfmt",
+    "koalaman"
   ]
 }
