@@ -11,7 +11,8 @@
     "actionlint@latest",
     "ghalint@latest",
     "zizmor@latest",
-    "lychee@latest"
+    "lychee@latest",
+    "hadolint@latest"
   ],
   "shell": {
     "init_hook": [
