@@ -34,7 +34,8 @@
         "actionlint",
         "ghalint run",
         "zizmor .",
-        "lychee docs/"
+        "lychee docs/",
+        "find . -name Dockerfile -exec hadolint {} +"
       ],
       "commitlint": [
         "bun run commitlint --edit"
