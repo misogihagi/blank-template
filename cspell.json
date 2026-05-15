@@ -49,6 +49,7 @@
     "Dockerfiles",
     "shellcheck",
     "shfmt",
-    "koalaman"
+    "koalaman",
+    "Pulumi"
   ]
 }
