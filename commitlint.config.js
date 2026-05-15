@@ -23,6 +23,7 @@ const allScopes = [
   "ghalint",
   "lychee",
   "devcontainers",
+  "typos",
 ];
 
 module.exports = {
